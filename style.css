@@ -26,6 +26,11 @@
      
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.logo:hover{
+       color: blue;
+       cursor: pointer;
+       transition: .6s;
+}
 
 .navigation{
     height: 70px;
@@ -42,6 +47,12 @@
     font-size: 15px;
     color: white;
     width: 20%;
+    border-radius: 70px;
+}
+.nav-link:hover{
+    background-color: cyan;
+    cursor: pointer;
+    transition: .6s;
 }
 .parent{
     width: 100%;

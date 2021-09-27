@@ -118,5 +118,8 @@
     width: 100%;
     text-align: left;
 }
+    .nav-link:hover{
+    color:pink;
+}
 
 }
